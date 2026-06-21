@@ -48,7 +48,7 @@ public class SecurityConfig {
                 new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-                List.of("http://localhost:3000")
+                List.of("https://movie-review-frontend-j951.vercel.app")
         );
 
         configuration.setAllowedMethods(
